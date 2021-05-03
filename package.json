@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "This project was bootstrapped with vue & quasar",
   "main": "server.js",
-  "scripts": {
-    "build": "quasar build",
+  "scripts": {    
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
