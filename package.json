@@ -1,0 +1,20 @@
+{
+  "name": "micro-blog",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with vue & quasar",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn && yarn build"
+  },
+  "author": "Rafi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4"
+  }
+}

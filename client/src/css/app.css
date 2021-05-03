@@ -1,0 +1,8 @@
+/* app global css */
+a {
+  color: initial;
+  text-decoration: none;
+}
+.border-left {
+  border-left: 0.2rem solid #e0e0e0;
+}
